@@ -1,3 +1,5 @@
+// Program to check whether the characters in the string are unique
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
