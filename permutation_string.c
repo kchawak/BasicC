@@ -26,12 +26,12 @@ int main()
             if(ips1[i] >= 'a' && ips1 <= 'z')
             {
                 x = ips1[i] - 'a';
-                count1[i]++;
+                count1[x]++;
             }
             if(ips2[i] >= 'a' && ips2 <= 'z')
             {
                 x = ips2[i] - 'a';
-                count2[i]++;
+                count2[x]++;
             }
         }
         
@@ -40,6 +40,7 @@ int main()
             if(count1[i] != count2[i])
             {
                 ans = 1;
+                break;
             }
         }
     }
