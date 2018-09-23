@@ -15,7 +15,7 @@ int main()
     
     for (j = 0; j < 5; j++)
     {
-        for (i = 1; i < 5; i++)
+        for (i = 1; i < (5 - j); i++)
         {
             if (input_nos[i-1] > input_nos[i])
             {
